@@ -1,0 +1,21 @@
+<div class='span3'>
+  <div class="well sidebar-nav">
+    <ul class="nav nav-list">
+      <% @sections.each do |name, section| %>  
+      <li class="nav-header">
+        <%= name %></li>
+        <% section.each do |name, link| %>  
+          <% if link.is_a? Array%>  
+            <li class="<%= live_active?(link) %>">
+              <%= link_to name, link.first %>
+            </li>
+          <% else %>  
+            <li class="<%= live_active?(link) %>">
+              <%= link_to name, link %>
+            </li>
+          <% end -%>  
+        <% end -%>
+      <% end -%>  
+    <ul>
+  </div>
+</div>

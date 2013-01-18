@@ -1,10 +1,7 @@
 # encoding: utf-8
-category:
-  目录管理:
-    前台目录管理: [manage_front_categories_url, new_manage_front_category_path]
-    后台目录管理: edit_manage_categories_url
-  专题管理:
-    专题管理: [manage_topic_url, new_manage_topic_url]
-order:
-  订单管理:
-    进行中的订单: ["manage_orders_url(:type => 'pending')", "manage_orders_url(:type => 'waiting')"]
+all:
+  blogs:
+    index: ["/blogs", "/blogs/new"]
+  tasks:
+    index: "my_tasks"
+    new: "my_tasks/new"

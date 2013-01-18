@@ -1,4 +1,5 @@
 require 'cells'
+require File.join(File.dirname(__FILE__), 'cells', 'left_side_cell')
 
 module LeftSide
   module Rails
@@ -13,7 +14,7 @@ module LeftSide
       # It will render left side in this page
       #
       def render_left_side(name)
-        ::Cell::Rails.render_cell_for(:left_side, :base, controller, {:section => name})
+        render_cell :left_side, :base, {:section => name}
       end
     end
   end

@@ -1,3 +1,6 @@
+require 'uri'
+require File.join(File.dirname(__FILE__), 'core_ext')
+
 module LeftSide
   module Rails
 
@@ -13,11 +16,14 @@ module LeftSide
 
       # use live_active? instead of
       def live_active_helper?(link, active_class)
-        regexp = link["manage"].present? ? /\/manage\/([\w\/]*)/ : /\/my\/([\w\/]*)/
-          current_uri = URI.unescape(link)
-        expect_uri = URI.unescape(request.url)
+        # regexp = link["manage"].present? ? /\/manage\/([\w\/]*)/ : /\/my\/([\w\/]*)/
+        # regexp = /\/\w*\/([\w\/]*)/
+        expect_uri = URI.unescape(link)
+        current_uri = URI.unescape(request.url)
         link_params = link.get_params
-        expect_uri.scan(regexp) == current_uri.scan(regexp) && request.params.extract(link_params.keys).fixed_hash == link_params ? active_class : nil
+        expect_hash = ::Rails.application.routes.recognize_path(expect_uri)
+        expect_hash[:controller] == request[:controller] && expect_hash[:action] == request[:action] &&\
+         request.params.extract(link_params.keys).fixed_hash == link_params ? active_class : nil
       end
     end
   end
