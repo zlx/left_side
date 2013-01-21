@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = LeftSide::VERSION
   gem.authors       = ["soffolk"]
   gem.email         = ["zlx.star@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{It provide left_side and highlight function web app, base on cells and for rails app}
+  gem.summary       = %q{left_side and highlight}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)
@@ -18,4 +18,5 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
 
   gem.add_dependency "cells",    "~> 3.7.1"
+  gem.add_dependency "rails",    "~> 3.2.6"
 end
