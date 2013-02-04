@@ -15,7 +15,7 @@ And then execute:
 
     $ bundle
 
-Then create config/left_side/section.yml [example](https://github.com/zlx/left_side/blob/master/lib/left_side/section.yml)
+Then create config/left_side/section.yml [example](https://github.com/zlx/left_side/blob/master/lib/generators/left_side/config/section.yml.example)
 
 ## Usage
 
