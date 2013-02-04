@@ -24,6 +24,7 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency "rspec-rails"
   gem.add_development_dependency "sqlite3"
   gem.add_development_dependency "capybara"
+  gem.add_development_dependency "sass"
 
   gem.add_development_dependency "launchy"
   gem.add_development_dependency "debugger"
