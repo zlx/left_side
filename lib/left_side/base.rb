@@ -10,8 +10,8 @@ module LeftSide
         new
       end
 
-      def init_section_method
-        @@sections = YAML.load_file(File.join(File.dirname(__FILE__), 'section.yml'))
+      def init_section_method(file = File.join(File.dirname(__FILE__), 'section.yml'))
+        @@sections = YAML.load_file(file)
         define_section_method
       end
 
@@ -22,7 +22,7 @@ module LeftSide
             @@sections[section]
           end
 
-          # define method alias 
+          # define method alias
           hash = set_up.send section.to_sym
           # fetch values from hash with sub_hash(2 level at most)
           urls = hash.map{|k, v| v.is_a?(Hash) ? v.map{|kk, vv| vv} : v}.join(',').split(',')

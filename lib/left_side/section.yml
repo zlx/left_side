@@ -1,7 +1,5 @@
 # encoding: utf-8
 all:
-  blogs:
-    index: ["/blogs", "/blogs/new"]
-  tasks:
-    index: "my_tasks"
-    new: "my_tasks/new"
+  todos:
+    index: "/todos"
+    new: "/todos/new"
