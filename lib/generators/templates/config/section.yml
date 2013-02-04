@@ -1,0 +1,6 @@
+# encoding: utf-8
+todo:
+  todos:
+    index: ["/todos", "/todos/new"]
+  tasks:
+    index: "tasks"

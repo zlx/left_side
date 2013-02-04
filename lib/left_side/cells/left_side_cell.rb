@@ -3,7 +3,6 @@ require 'cells'
 class LeftSideCell < Cell::Rails
 
   def base(args)
-    #debugger
     LeftSide::Base.init_section_method(File.join(::Rails.root, 'config', 'left_side', 'section.yml'))
     if LeftSide::Base.new.respond_to? args[:section]
       @sections = LeftSide::Base.new.send args[:section]

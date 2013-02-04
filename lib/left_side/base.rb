@@ -10,7 +10,7 @@ module LeftSide
         new
       end
 
-      def init_section_method(file = File.join(File.dirname(__FILE__), 'section.yml'))
+      def init_section_method(file)
         @@sections = YAML.load_file(file)
         define_section_method
       end
