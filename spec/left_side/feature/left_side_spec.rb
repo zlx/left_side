@@ -17,8 +17,8 @@ feature "sidebar" do
 
   scenario "should have right css class" do
     visit todos_path
-    page.should have_css("div.left-side > div.well.sidebar-nav > ul.nav.nav-list > li.nav-header")
-    page.should have_css("div.left-side > div.well.sidebar-nav > ul.nav.nav-list > li > a[href]")
+    page.should have_css("div.left-side > ul.nav-list > li.nav-header")
+    page.should have_css("div.left-side > ul.nav-list > li > a[href]")
   end
 
   scenario "should not render left_side when not define in section.yml" do
