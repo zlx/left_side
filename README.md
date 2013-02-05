@@ -69,7 +69,9 @@ render :layout => false
 
 + run
 
-    rails g left_side:stylesheet
+```sh
+rails g left_side:stylesheet
+```
 
 + modify *assets/stylesheets/left-side.css.scss*
 
