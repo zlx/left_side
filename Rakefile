@@ -1,6 +1,7 @@
 require "bundler/gem_tasks"
 
-desc 'test'
+task :default => [:test]
+
 task :test do
   system("rspec spec")
 end
