@@ -18,7 +18,9 @@ And then execute:
 
     $ bundle
 
-Then create config/left_side/section.yml [example](https://github.com/zlx/left_side/blob/master/lib/generators/left_side/config/section.yml.example)
+Then run:
+
+    $ rails g left_side:install
 
 ## Usage
 
@@ -36,13 +38,11 @@ Then create config/left_side/section.yml [example](https://github.com/zlx/left_s
 
 ## TODO
 
-1. add generate command to create section: copy example to left_side/section.yml
+- move css to app assets to make it modify
 
-2. move css to app assets to make it modify
+- use url_helper in yml file
 
-3. use url_helper in yml file
-
-4. refactor the code
+- refactor the code
 
 ## Contributing
 
