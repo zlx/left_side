@@ -7,12 +7,16 @@
     <%= csrf_meta_tags %>
   </head>
   <body>
+    <aside class='span3'>
     <% if content_for? :nav_left %>
       <%= yield :nav_left %>
     <% else %>
       <%= render_left_side controller_name %>
     <% end %>
+    </aside>
+    <section class='span21'>
     <%= yield %>
+    </section>
 
   </body>
 </html>

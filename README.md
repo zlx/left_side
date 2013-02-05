@@ -24,21 +24,49 @@ Then run:
 
 ## Usage
 
-1. require left-side in application.css
+- require left-side in application.css
 
-2. add 
+- add 
    ```ruby
-   <% if content_for? :nav_left %>
-     <%= yield :nav_left %>
-   <% else %>
-     <%= render_left_side controller_name %>
-   <% end %>
+   <aside class='span3'>
+     <% if content_for? :nav_left %>
+       <%= yield :nav_left %>
+     <% else %>
+       <%= render_left_side controller_name %>
+     <% end %>
+   </aside>
+   <section class='span21'>
+     <%= yield %>
+   </section>
    ```
    to your layout
 
-## TODO
+### dependency
 
-- move css to app assets to make it modify
+- cells
+
+- bootstrap
+
+### how to disable left_side in some special page
+
+- 在对应的 action 里面
+
+    render :layout => false
+
+- 在对应的页面里面
+
+    <%= content_for :left_side %>
+    <% end %>
+
+### how to modify the stylesheet
+
++ 执行
+
+    rails g left_side:stylesheet
+
++ 在 *assets/stylesheets/left-side.css.scss* 里面添加或者修改你自己的样式
+
+## TODO
 
 - use url_helper in yml file
 

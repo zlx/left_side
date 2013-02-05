@@ -4,7 +4,7 @@ $color3: #999;       /* header text color */
 
 .left-side {
   background-color: whiteSmoke;
-  width: 11.76462%;
+  /*width: 11.76462%;*/
   padding: 9px 0;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 12px;
@@ -18,30 +18,30 @@ $color3: #999;       /* header text color */
     -webkit-text-size-adjust: none;
   }
 
-  .nav-list {
+  .left-side-list {
     list-style: none;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
-    
+
     &> li {
       line-height: 18px;
-      
+
       &> a {
         padding: 3px 15px;
         display: block;
         color: $color1;
         text-decoration: none;
-        
+
         &:hover {
           background-color: $color2;
         }
       }
-      
+
       &.active > a {
         color: white;
         background-color: $color1;
       }
     }
-   
+
     .nav-header {
       display: block;
       padding: 3px 15px;
