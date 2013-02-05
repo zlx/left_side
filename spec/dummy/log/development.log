@@ -2628,3 +2628,257 @@ Served asset /left-side.css - 200 OK (2ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:22:05 +0800
 Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-05 11:46:19 +0800
+Connecting to database specified by database.yml
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.3ms)
+Completed 200 OK in 27ms (Views: 26.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 11:46:19 +0800
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:46:19 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 11:46:19 +0800
+Served asset /left-side.css - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-05 11:46:19 +0800
+Served asset /bootstrap.min.css - 200 OK (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:46:24 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.5ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.3ms)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 11:46:24 +0800
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-05 11:46:24 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:46:24 +0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 11:46:24 +0800
+Served asset /left-side.css - 200 OK (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:47:52 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.5ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.3ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:52 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:47:52 +0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:52 +0800
+Served asset /left-side.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:52 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:47:53 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.1ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:54 +0800
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:54 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:47:54 +0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:54 +0800
+Served asset /left-side.css - 200 OK (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:47:54 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.1ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 12ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:55 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:55 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 11:47:55 +0800
+Served asset /left-side.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:47:55 +0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:48:39 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:51:01 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb (2.0ms)
+Completed 500 Internal Server Error in 3ms
+
+ActionView::Template::Error (undefined method `singularize' for :task:Symbol):
+    1: <% content_for :nav_left do%>
+    2:   <%= render_left_side :task %>
+    3: <% end %>
+  app/views/todos/index.html.erb:2:in `block in _app_views_todos_index_html_erb__2597437095359264312_36309900'
+  app/views/todos/index.html.erb:1:in `_app_views_todos_index_html_erb__2597437095359264312_36309900'
+  app/controllers/todos_controller.rb:3:in `index'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.2ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:51:09 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb (1.0ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (undefined method `singularize' for :tasks:Symbol):
+    1: <% content_for :nav_left do%>
+    2:   <%= render_left_side :tasks %>
+    3: <% end %>
+  app/views/todos/index.html.erb:2:in `block in _app_views_todos_index_html_erb__2597437095359264312_35789080'
+  app/views/todos/index.html.erb:1:in `_app_views_todos_index_html_erb__2597437095359264312_35789080'
+  app/controllers/todos_controller.rb:3:in `index'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:51:10 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb (0.4ms)
+Completed 500 Internal Server Error in 1ms
+
+ActionView::Template::Error (undefined method `singularize' for :tasks:Symbol):
+    1: <% content_for :nav_left do%>
+    2:   <%= render_left_side :tasks %>
+    3: <% end %>
+  app/views/todos/index.html.erb:2:in `block in _app_views_todos_index_html_erb__2597437095359264312_35789080'
+  app/views/todos/index.html.erb:1:in `_app_views_todos_index_html_erb__2597437095359264312_35789080'
+  app/controllers/todos_controller.rb:3:in `index'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (4.8ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:51:24 +0800
+Processing by TodosController#index as HTML
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (0.9ms)
+  Rendered todos/index.html.erb (14.3ms)
+Completed 200 OK in 15ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:54:20 +0800
+Processing by TodosController#index as HTML
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (0.9ms)
+  Rendered todos/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 16ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 11:54:20 +0800
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-05 11:54:20 +0800
+Served asset /bootstrap.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 11:54:20 +0800
+Served asset /left-side.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-05 11:54:20 +0800
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:54:24 +0800
+Processing by TodosController#index as HTML
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.5ms)
+  Rendered todos/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:54:34 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.5ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.1ms)
+Completed 200 OK in 14ms (Views: 13.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:54:40 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.5ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.5ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 11:55:50 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-05 12:00:52 +0800
+Processing by TodosController#index as HTML
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.1ms)
+  Rendered todos/index.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 13ms (Views: 12.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-05 12:00:52 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 12:00:52 +0800
+Served asset /left-side.css - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m

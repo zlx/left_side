@@ -3,10 +3,9 @@
 [<img src="https://secure.travis-ci.org/zlx/left_side.png" />](https://travis-ci.org/zlx/left_side)
 
 
-left_side is a small tool to render sidebar for your rails app
+left_side is a smart tool to render sidebar for your rails app
 
-demo
-    ![left side demo](http://blog.zlxstar.me/images/left_side_demo.png)
+Demo: ![left side demo](http://blog.zlxstar.me/images/left_side_demo.png)
 
 ## Installation
 
@@ -41,34 +40,41 @@ Then run:
    ```
    to your layout
 
-### dependency
+### Dependency
 
 - cells
 
 - bootstrap
 
-### how to disable left_side in some special page
+### How to disable left_side in some special page
 
-- 在对应的 action 里面
+- in the action
 
     render :layout => false
 
-- 在对应的页面里面
+### How to change the default left_side in some special page
 
-    <%= content_for :left_side %>
+- in the page
+
+    <% content_for :nav_left do%>
+      <%= render_left_side :tasks %>
     <% end %>
 
-### how to modify the stylesheet
+*tasks is the top string in the section.yml*
 
-+ 执行
+### How to modify the stylesheet
+
++ run
 
     rails g left_side:stylesheet
 
-+ 在 *assets/stylesheets/left-side.css.scss* 里面添加或者修改你自己的样式
++ modify *assets/stylesheets/left-side.css.scss*
 
 ## TODO
 
 - use url_helper in yml file
+
+- add section_hint command to valid the section config
 
 - refactor the code
 

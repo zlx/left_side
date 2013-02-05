@@ -3,4 +3,4 @@ todo:
   todos:
     index: ["/todos", "/todos/new"]
   tasks:
-    index: "tasks"
+    index: "/tasks"
