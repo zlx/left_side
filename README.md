@@ -49,15 +49,19 @@ Then run:
 
 - in the action
 
-    render :layout => false
+```ruby
+render :layout => false
+```
 
 ### How to change the default left_side in some special page
 
 - in the page
 
-    <% content_for :nav_left do%>
-      <%= render_left_side :tasks %>
-    <% end %>
+```ruby
+<% content_for :nav_left do%>
+  <%= render_left_side :tasks %>
+<% end %>
+```
 
 *tasks is the top string in the section.yml*
 
