@@ -1,6 +1,5 @@
-# LeftSide
-
-[<img src="https://secure.travis-ci.org/zlx/left_side.png" />](https://travis-ci.org/zlx/left_side)
+LeftSide [![build status](https://secure.travis-ci.org/zlx/left_side.png)](https://travis-ci.org/zlx/left_side)
+========
 
 
 left_side is a smart tool to render sidebar for your rails app
