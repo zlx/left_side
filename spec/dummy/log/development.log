@@ -2969,3 +2969,385 @@ Served asset /bootstrap.min.css - 304 Not Modified (0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 13:40:13 +0800
 Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 14:30:25 +0800
+Connecting to database specified by database.yml
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.7ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 30ms (Views: 29.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 14:30:25 +0800
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 14:30:25 +0800
+Served asset /left-side.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 14:30:25 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 14:30:25 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 14:31:32 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.1ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 14:31:32 +0800
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 14:31:32 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 14:31:32 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 14:31:32 +0800
+Served asset /left-side.css - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:36 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 14:31:37 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 14:31:37 +0800
+Served asset /left-side.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 14:31:37 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 14:31:37 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:52 +0800
+Connecting to database specified by database.yml
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___2434265780197295702_26151420'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:53 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___2434265780197295702_26151420'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:54 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___2434265780197295702_26151420'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:55 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 7ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___2434265780197295702_26151420'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:55 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___2434265780197295702_26151420'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:31:56 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___2434265780197295702_26151420'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 14:59:19 +0800
+Connecting to database specified by database.yml
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 16ms
+
+ActionView::Template::Error (undefined method `root' for LeftSide::Rails:Module):
+    11:     <% if content_for? :nav_left %>
+    12:       <%= yield :nav_left %>
+    13:     <% else %>
+    14:       <%= render_left_side controller_name %>
+    15:     <% end %>
+    16:     </aside>
+    17:     <section class='span21'>
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1923134023767721391_25224340'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:04 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionView::Template::Error (undefined method `root' for LeftSide::Rails:Module):
+    11:     <% if content_for? :nav_left %>
+    12:       <%= yield :nav_left %>
+    13:     <% else %>
+    14:       <%= render_left_side controller_name %>
+    15:     <% end %>
+    16:     </aside>
+    17:     <section class='span21'>
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1923134023767721391_25224340'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:06 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `root' for LeftSide::Rails:Module):
+    11:     <% if content_for? :nav_left %>
+    12:       <%= yield :nav_left %>
+    13:     <% else %>
+    14:       <%= render_left_side controller_name %>
+    15:     <% end %>
+    16:     </aside>
+    17:     <section class='span21'>
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___1923134023767721391_25224340'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.1ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:21 +0800
+Connecting to database specified by database.yml
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:23 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:23 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:24 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:35 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 5ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:37 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 9ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:00:37 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb___379066639842456743_28083560'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:07:19 +0800
+Connecting to database specified by database.yml
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (2.7ms)
+Completed 500 Internal Server Error in 30ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3639103398650063810_30942840'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:07:21 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.8ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3639103398650063810_30942840'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:07:22 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.8ms)
+Completed 500 Internal Server Error in 13ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3639103398650063810_30942840'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:07:22 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (2.0ms)
+Completed 500 Internal Server Error in 12ms
+
+ActionController::RoutingError (No route matches "/tasks_path"):
+  app/views/layouts/application.html.erb:14:in `_app_views_layouts_application_html_erb__3639103398650063810_30942840'
+
+
+  Rendered /home/soffolk/.rvm/gems/ruby-1.9.3-p327-falcon/gems/actionpack-3.2.11/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:46:40 +0800
+Connecting to database specified by database.yml
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.7ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 200 OK in 27ms (Views: 27.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 15:46:41 +0800
+Served asset /bootstrap.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 15:46:41 +0800
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 15:46:41 +0800
+Served asset /left-side.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 15:46:41 +0800
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 15:46:44 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.4ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 15:46:44 +0800
+Served asset /application.js - 304 Not Modified (0ms)

@@ -31,4 +31,8 @@ class Hash
   def fetch_values
     self.map{|_, v| v.is_a?(Hash) ? v.fetch_values : v}.join(',').split(',')
   end
+
+  def process_each_value(&block)
+    self.each{|k, v| self[k] = v.is_a?(Hash) ? v.process_each_value(&block) : Array(v).map{|vv| yield vv}}
+  end
 end
