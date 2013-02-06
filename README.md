@@ -1,6 +1,5 @@
-# LeftSide
-
-[<img src="https://secure.travis-ci.org/zlx/left_side.png" />](https://travis-ci.org/zlx/left_side)
+LeftSide [![build status](https://secure.travis-ci.org/zlx/left_side.png)](https://travis-ci.org/zlx/left_side) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/zlx/left_side)
+========
 
 
 left_side is a smart tool to render sidebar for your rails app
@@ -50,15 +49,19 @@ Then run:
 
 - in the action
 
-    render :layout => false
+```ruby
+render :layout => false
+```
 
 ### How to change the default left_side in some special page
 
 - in the page
 
-    <% content_for :nav_left do%>
-      <%= render_left_side :tasks %>
-    <% end %>
+```ruby
+<% content_for :nav_left do%>
+  <%= render_left_side :tasks %>
+<% end %>
+```
 
 *tasks is the top string in the section.yml*
 
@@ -66,7 +69,9 @@ Then run:
 
 + run
 
-    rails g left_side:stylesheet
+```sh
+rails g left_side:stylesheet
+```
 
 + modify *assets/stylesheets/left-side.css.scss*
 
