@@ -1,5 +1,5 @@
 require 'cells'
-require File.join(File.dirname(__FILE__), 'cells', 'left_side_cell')
+require 'left_side/cells/left_side_cell'
 
 module LeftSide
   module Rails

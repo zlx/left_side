@@ -17,4 +17,5 @@ spec/reports
 test/tmp
 test/version_tmp
 tmp
-spec/dummy/log/test.log
+spec
+tags

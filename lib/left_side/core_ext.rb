@@ -26,5 +26,9 @@ class Hash
       g[k.to_s] = v.is_a?(Hash) ? v.fixed_hash : v.to_s
     end
     g
-  end  
+  end
+
+  def fetch_values
+    self.map{|_, v| v.is_a?(Hash) ? v.fetch_values : v}.join(',').split(',')
+  end
 end

@@ -1,11 +1,13 @@
 require 'cells'
+require 'left_side/base'
+require 'left_side/helper'
 
 class LeftSideCell < Cell::Rails
 
   def base(args)
-    LeftSide::Base.init_section_method(File.join(::Rails.root, 'config', 'left_side', 'section.yml'))
-    if LeftSide::Base.new.respond_to? args[:section]
-      @sections = LeftSide::Base.new.send args[:section]
+    left_side = LeftSide::Base.load
+    if left_side.respond_to? args[:section]
+      @sections = left_side.send args[:section]
     else
       render :nothing => true and return
     end

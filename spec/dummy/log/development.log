@@ -2882,3 +2882,90 @@ Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-05 12:00:52 
 Served asset /left-side.css - 304 Not Modified (0ms)
 Connecting to database specified by database.yml
   [1m[36m (0.7ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 13:40:01 +0800
+Connecting to database specified by database.yml
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (1.9ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.9ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:01 +0800
+Served asset /bootstrap.min.css - 200 OK (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 13:40:01 +0800
+Served asset /application.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:01 +0800
+Served asset /application.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:01 +0800
+Served asset /left-side.css - 304 Not Modified (1ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 13:40:04 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.3ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (2.0ms)
+Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:05 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:05 +0800
+Served asset /left-side.css - 304 Not Modified (0ms)
+
+
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 13:40:08 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.1ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:09 +0800
+Served asset /left-side.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:09 +0800
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:09 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 13:40:09 +0800
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 13:40:13 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (2.1ms)
+Completed 200 OK in 14ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:13 +0800
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/left-side.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:13 +0800
+Served asset /left-side.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.min.css?body=1" for 127.0.0.1 at 2013-02-06 13:40:13 +0800
+Served asset /bootstrap.min.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 13:40:13 +0800
+Served asset /application.js - 304 Not Modified (0ms)
