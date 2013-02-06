@@ -24,6 +24,10 @@ Then run:
 
 - require left-side in application.css
 
+```ruby
+*= require left-side
+```
+
 - add
 
 ```ruby
