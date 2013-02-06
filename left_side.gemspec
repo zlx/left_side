@@ -9,8 +9,8 @@ Gem::Specification.new do |gem|
   gem.authors       = ["soffolk"]
   gem.email         = ["zlx.star@gmail.com"]
   gem.description   = %q{It provide left_side and highlight function web app, base on cells and for rails app}
-  gem.summary       = %q{left_side and highlight}
-  gem.homepage      = "https://github.com/zlx/left_side"
+  gem.summary       = %q{sidebar and highlight}
+  gem.homepage      = "http://blog.zlxstar.me/left_side/"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
