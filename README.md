@@ -24,7 +24,8 @@ Then run:
 
 - require left-side in application.css
 
-- add 
+- add
+
 ```ruby
 <aside class='span3'>
   <% if content_for? :nav_left %>
