@@ -25,19 +25,19 @@ Then run:
 - require left-side in application.css
 
 - add 
-   ```ruby
-   <aside class='span3'>
-     <% if content_for? :nav_left %>
-       <%= yield :nav_left %>
-     <% else %>
-       <%= render_left_side controller_name %>
-     <% end %>
-   </aside>
-   <section class='span21'>
-     <%= yield %>
-   </section>
-   ```
-   to your layout
+```ruby
+<aside class='span3'>
+  <% if content_for? :nav_left %>
+    <%= yield :nav_left %>
+  <% else %>
+    <%= render_left_side controller_name %>
+  <% end %>
+</aside>
+<section class='span21'>
+  <%= yield %>
+</section>
+```
+to your layout
 
 ### Dependency
 
