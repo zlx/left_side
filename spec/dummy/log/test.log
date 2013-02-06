@@ -3051,3 +3051,161 @@ Processing by TodosController#index as HTML
   Rendered todos/index.html.erb within layouts/application (0.0ms)
   Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.0ms)
 Completed 200 OK in 6ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.6ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.1ms)
+Completed 200 OK in 12ms (Views: 11.9ms | ActiveRecord: 0.0ms)
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.0ms)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+Started GET "/todos/new" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.3ms)
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.0ms)
+Started GET "/todos?extract=Hi" for 127.0.0.1 at 2013-02-06 15:55:17 +0800
+Processing by TodosController#index as HTML
+  Parameters: {"extract"=>"Hi"}
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.1ms)
+Completed 200 OK in 6ms (Views: 6.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 11ms
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 5ms
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+Started GET "/tasks/new" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (0.2ms)
+Completed 500 Internal Server Error in 4ms
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 3ms
+Started GET "/todos/new" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 4ms
+Started GET "/todos?extract=Hi" for 127.0.0.1 at 2013-02-06 16:47:52 +0800
+Processing by TodosController#index as HTML
+  Parameters: {"extract"=>"Hi"}
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+Completed 500 Internal Server Error in 4ms
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.6ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (3.3ms)
+Completed 500 Internal Server Error in 15ms
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.6ms)
+Completed 500 Internal Server Error in 8ms
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 500 Internal Server Error in 6ms
+Started GET "/tasks/new" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (2.1ms)
+Completed 500 Internal Server Error in 8ms
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 500 Internal Server Error in 24ms
+Started GET "/todos/new" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.7ms)
+Completed 500 Internal Server Error in 8ms
+Started GET "/todos?extract=Hi" for 127.0.0.1 at 2013-02-06 17:00:13 +0800
+Processing by TodosController#index as HTML
+  Parameters: {"extract"=>"Hi"}
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 500 Internal Server Error in 6ms
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:00:35 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.7ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (3.3ms)
+Completed 500 Internal Server Error in 15ms
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:01:08 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:02:03 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.7ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.3ms)
+Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.6ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.2ms)
+Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+Started GET "/tasks" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TasksController#index as HTML
+  Rendered tasks/index.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms)
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+Started GET "/tasks/new" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TasksController#new as HTML
+  Rendered tasks/new.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)
+Started GET "/todos" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TodosController#index as HTML
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.3ms)
+Completed 200 OK in 6ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+Started GET "/todos/new" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TodosController#new as HTML
+  Rendered todos/new.html.erb within layouts/application (0.2ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.5ms)
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.0ms)
+Started GET "/todos?extract=Hi" for 127.0.0.1 at 2013-02-06 17:02:06 +0800
+Processing by TodosController#index as HTML
+  Parameters: {"extract"=>"Hi"}
+  Rendered todos/index.html.erb within layouts/application (0.0ms)
+  Rendered /mnt/soffolk/home/soffolk/work/mine/left_side/lib/left_side/cells/left_side/base.html.erb (1.4ms)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms)

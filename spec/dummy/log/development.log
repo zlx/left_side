@@ -3351,3 +3351,4 @@ Completed 200 OK in 14ms (Views: 13.2ms | ActiveRecord: 0.0ms)
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-06 15:46:44 +0800
 Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml

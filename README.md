@@ -77,7 +77,7 @@ rails g left_side:stylesheet
 
 ## TODO
 
-- use url_helper in yml file
+- add support for url_helper with arguments
 
 - add section_hint command to valid the section config
 

@@ -17,7 +17,13 @@ module LeftSide
       private
 
       def process_url_helper
-        @@sections.process_each_value{|url| instance.respond_to?(url) ? instance.send(url) : url}
+        @@sections.process_each_value do |url|
+          if url =~ /(.*_path)[\((.*)\)]?/ && instance.respond_to?($1)
+            instance.send($1, $2 ? eval("{" + $2 + "}") : {})
+          else
+            url
+          end
+        end
       end
 
       def create_section_method(name)

@@ -4,3 +4,4 @@ todo:
     index: ["/todos", "/todos/new"]
   tasks:
     index: tasks_path
+    index2: tasks_path(:p => 1)
