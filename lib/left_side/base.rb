@@ -18,8 +18,8 @@ module LeftSide
 
       def process_url_helper
         @@sections.process_each_value do |url|
-          if url =~ /(.*_path)[\((.*)\)]?/ && instance.respond_to?($1)
-            instance.send($1, $2 ? eval("{" + $2 + "}") : {})
+          if url =~ /(.*_path)\(?([^()]*)\)?/ && instance.respond_to?($1)
+            instance.send($1, eval("{" + $2.to_s + "}"))
           else
             url
           end
