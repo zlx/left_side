@@ -5,23 +5,36 @@ module LeftSide
   module Rails
 
     module Helper
-      # link can be a string or a set of string
       def live_active?(link, active_class = "active")
-        if link.is_a?(Array)
-          link.inject(nil){|s, lin| s ||= live_active_helper?(lin, active_class)}
-        elsif link.is_a?(String)
-          live_active_helper?(link, active_class)
-        end || ""
+        Array(link).inject(nil){|s, lin| s ||= live_active_helper?(lin, active_class)}
       end
 
-      # use live_active? instead of
       def live_active_helper?(link, active_class)
-        expect_uri = URI.unescape(link)
-        current_uri = URI.unescape(request.url)
+        url_match?(link) ? active_class : nil
+      end
+
+      private
+
+      def url_match?(link)
+        base_url_match?(link) && params_match?(link)
+      end
+
+      def base_url_match?(link)
+        expect_hash = recognize_path(link)
+        expect_hash[:controller] == request[:controller] && expect_hash[:action] == request[:action]
+      end
+
+      def params_match?(link)
         link_params = link.get_params
-        expect_hash = ::Rails.application.routes.recognize_path(expect_uri)
-        expect_hash[:controller] == request[:controller] && expect_hash[:action] == request[:action] &&\
-         request.params.extract(link_params.keys).fixed_hash == link_params ? active_class : nil
+        request.params.extract(link_params.keys).fixed_hash == link_params
+      end
+
+      def unescape(url)
+        URI.unescape(url)
+      end
+
+      def recognize_path(link)
+        ::Rails.application.routes.recognize_path(unescape(link))
       end
     end
   end
