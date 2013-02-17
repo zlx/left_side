@@ -82,7 +82,7 @@ rails g left_side:stylesheet
 
 ## TODO
 
-- add support for url_helper with arguments
+- make development mode need not restart when section.yml changed
 
 - add section_hint command to valid the section config
 
