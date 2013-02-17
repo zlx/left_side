@@ -25,8 +25,8 @@ module LeftSide
       end
 
       def params_match?(link)
-        link_params = link.get_params
-        request.params.extract(link_params.keys).fixed_hash == link_params
+        link_params = Rack::Utils.parse_nested_query(URI.parse(link).query)
+        request.params.extract(link_params.keys).fixed_hash == link_params.fixed_hash
       end
 
       def unescape(url)

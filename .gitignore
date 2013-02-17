@@ -18,5 +18,5 @@ test/tmp
 test/version_tmp
 tmp
 tags
-spec/dummy/log/*
+spec/dummy/log/
 spec/dummy/.sass-cache
