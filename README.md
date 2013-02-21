@@ -1,4 +1,4 @@
-LeftSide [![build status](https://secure.travis-ci.org/zlx/left_side.png)](https://travis-ci.org/zlx/left_side) [![Code Climate](https://codeclimate.com/badge.png)](https://codeclimate.com/github/zlx/left_side)
+LeftSide [![build status](https://secure.travis-ci.org/zlx/left_side.png)](https://travis-ci.org/zlx/left_side) [![Code Climate](https://codeclimate.com/github/zlx/left_side.png)](https://codeclimate.com/github/zlx/left_side)
 ========
 
 
